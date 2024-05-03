@@ -7,18 +7,18 @@ RSpec.describe '#bubble_sort' do
   end
 
   it 'ordena corretamente um array já ordenado' do
-    array = [1, 2, 3, 4, 5]
-    expect(bubble_sort(array)).to eq([1, 2, 3, 4, 5])
+    array = [0, 3, 5, 6]
+    expect(bubble_sort(array)).to eq([0, 3, 5, 6])
   end
 
   it 'ordena corretamente um array inversamente ordenado' do
-    array = [5, 4, 3, 2, 1]
-    expect(bubble_sort(array)).to eq([1, 2, 3, 4, 5])
+    array = [6, 5, 3, 0]
+    expect(bubble_sort(array)).to eq([0, 3, 5, 6])
   end
 
   it 'ordena corretamente um array com elementos duplicados' do
-    array = [3, 1, 2, 3, 1]
-    expect(bubble_sort(array)).to eq([1, 1, 2, 3, 3])
+    array = [0, 3, 5, 3, 5, 6]
+    expect(bubble_sort(array)).to eq([0, 3, 3, 5, 5, 6])
   end
 
   it 'ordena corretamente um array vazio' do

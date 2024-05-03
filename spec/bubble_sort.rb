@@ -1,5 +1,5 @@
 
-def bublle_sort(array)
+def bubble_sort(array)
 
   n = array.length
 
@@ -21,5 +21,5 @@ def bublle_sort(array)
 
   arr = [6, 0, 3, 5]
 
-  sorted_arr = bublle_sort(arr)
+  sorted_arr = bubble_sort(arr)
   puts "Array ordenado #{sorted_arr}"
