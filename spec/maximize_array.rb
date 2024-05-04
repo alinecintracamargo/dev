@@ -20,9 +20,13 @@ def maximum_sum(arr, k)
   sum = arr.sum
 end
 
-# Testando o código
+
+
+
+
 arr = [-2, 0, 5, -1, 2]
 k = 4
 puts maximum_sum(arr, k)
 
-# Saída: 10
+
+
