@@ -12,21 +12,14 @@ def maximum_sum(arr, k)
       end
     end
 
-    break if min == 0
+    arr[index] = -arr[index]  # Move a operação de multiplicação para dentro do loop
 
-    arr[index] = -arr[index]
+    break if min == 0
   end
 
   sum = arr.sum
 end
 
-
-
-
-
 arr = [-2, 0, 5, -1, 2]
 k = 4
 puts maximum_sum(arr, k)
-
-
-
