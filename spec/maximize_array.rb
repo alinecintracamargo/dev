@@ -18,8 +18,9 @@ def maximum_sum(arr, k)
   end
 
   sum = arr.sum
+  
 end
 
-arr = [-2, 0, 5, -1, 2]
-k = 4
-puts maximum_sum(arr, k)
+  arr = [-2, 0, 5, -1, 2]
+  k = 4
+  p uts maximum_sum(arr, k)
